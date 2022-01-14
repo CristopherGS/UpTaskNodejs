@@ -1,0 +1,25 @@
+{
+  "name": "uptask",
+  "version": "1.0.0",
+  "description": "Proyeco de uptask echo con Node y MVC",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon ./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CristopherGS/UpTaskNodejs.git"
+  },
+  "author": "Cristopher Guerra",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CristopherGS/UpTaskNodejs/"
+  },
+  "homepage": "https://github.com/CristopherGS/UpTaskNodejs#readme",
+  "dependencies": {
+    "express": "^4.17.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
