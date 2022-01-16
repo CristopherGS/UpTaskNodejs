@@ -1,7 +1,11 @@
 exports.proyectoHome = function (req, res) {
-    res.send('Hola');
+    //para renderizar una vista
+    res.render('index');
 };
 
-exports.nosotros = function (req, res) {
-    res.send('Nosotros');
+exports.formularioProyecto = function (req, res) {
+    //para renderizar una vista
+    res.render('nuevo-proyecto',
+        { title: 'Nuevo Proyecto' }
+    );
 };
