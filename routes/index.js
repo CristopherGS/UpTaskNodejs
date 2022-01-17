@@ -9,6 +9,10 @@ module.exports = function () {
     //declarar las rutas
     router.get('/', proyectosController.proyectoHome);
     router.get('/nuevo-proyecto', proyectosController.formularioProyecto);
+    
+    //agregamos el post
+    router.post('/nuevo-proyecto', proyectosController.nuevoProyecto);
+
     return router;
 }
 
@@ -25,3 +29,4 @@ module.exports = function () {
 
 
 //creamos una master page
+//creamos la ruta para el formulario de nuevo proyecto
